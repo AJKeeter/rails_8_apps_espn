@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.5.5'
+ruby '2.4.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.11'
@@ -18,7 +18,7 @@ gem 'simple_form', '~> 3.1.0'
 
 gem 'bootstrap-sass', '~> 3.3.4'
 
-gem 'devise', '~> 3.4.1'
+gem 'devise', '~> 3.5.10'
 # Use Uglifier as compressor for JavaScript assets
 # gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
